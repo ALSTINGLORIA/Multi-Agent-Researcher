@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-core
+langchain-nvidia-ai-endpoints
+requests
+python-dotenv
+tavily-python
+langchainhub
+langchain-tavily
