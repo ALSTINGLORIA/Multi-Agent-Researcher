@@ -7,3 +7,8 @@ python-dotenv
 tavily-python
 langchainhub
 langchain-tavily
+beautifulsoup4
+lxml 
+readability-lxml
+trafilatura
+gardio
