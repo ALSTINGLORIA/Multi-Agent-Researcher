@@ -10,7 +10,12 @@ load_dotenv()
 
 model = ChatNVIDIA(
     model="nvidia/nemotron-3.5-lightning-30b-a3b",
-    api_key = os.getenv("NVIDIA_API_KEY")
+    api_key = os.getenv("NVIDIA_API_KEY"),
+    model_kwargs={
+        "chat_template_kwargs": {
+            "enable_thinking": False
+        }
+    }
 )
 
 def search_agent():
